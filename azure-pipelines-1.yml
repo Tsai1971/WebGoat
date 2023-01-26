@@ -15,7 +15,7 @@ steps:
     targetType: 'inline'
     script: |
       pwd
-      export FTI_TOOLS=sc:22.1.0      
+      export FTI_TOOLS=sc:22.1.0
       source <(curl -sL https://raw.githubusercontent.com/fortify/FortifyToolsInstaller/latest/FortifyToolsInstaller.sh)
 
 - task: FortifyOnDemandStatic@8
