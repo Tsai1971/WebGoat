@@ -32,10 +32,10 @@ steps:
     FodConnection: 'Teste Fortify'
     ReleaseOptions: '0'
     ReleaseId: 200003
-    EntitlementSelection: '0'
+    EntitlementSelection: '1'
     EntitlementPreference: '0'
     OverrideScanSettings: '2'
     InProgressScanActionType: '2'
-    RemediationScanPreference: '0'
+    RemediationScanPreference: '1'
     BuildType: 'mvn'
     PolicyFailAction: '0'
