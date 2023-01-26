@@ -10,7 +10,16 @@ pool:
   vmImage: ubuntu-latest
 steps:
 
+- task: Bash@3 
+  inputs:
+    targetType: 'inline'
+    script: |
+      pwd
+      export FTI_TOOLS=sc:22.1.0      
+      source <(curl -sL https://raw.githubusercontent.com/fortify/FortifyToolsInstaller/latest/FortifyToolsInstaller.sh)
+
 - task: FortifyOnDemandStatic@8
+
   inputs:
     FortifyProjects: '.'
     ScanCentralLocation: '/home/vsts/.fortify/tools/ScanCentralClient/22.1.0'
