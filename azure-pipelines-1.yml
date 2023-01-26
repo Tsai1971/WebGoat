@@ -36,6 +36,6 @@ steps:
     EntitlementPreference: '0'
     OverrideScanSettings: '2'
     InProgressScanActionType: '2'
-#    ## RemediationScanPreference: '2'
+    RemediationScanPreference: '2'
     BuildType: 'mvn'
     PolicyFailAction: '0'
