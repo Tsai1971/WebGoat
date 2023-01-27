@@ -31,11 +31,11 @@ steps:
     ScanCentralLocation: '/home/vsts/.fortify/tools/ScanCentralClient/22.1.0'
     FodConnection: 'Teste Fortify'
     ReleaseOptions: '0'
-    ReleaseId: 200003
-    EntitlementSelection: '0'
+    ReleaseId: 200109
+    EntitlementSelection: '1'
     EntitlementPreference: '0'
     OverrideScanSettings: '2'
-    InProgressScanActionType: '2'
-    RemediationScanPreference: '2'
+    InProgressScanActionType: '1'
+    RemediationScanPreference: '1'
     BuildType: 'mvn'
     PolicyFailAction: '0'
